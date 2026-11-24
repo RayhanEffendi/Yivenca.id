@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+:root {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  color: #1C1917;
+  background: #ffffff;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  min-width: 320px;
+  margin: 0;
+}
+
+button,
+a {
+  -webkit-tap-highlight-color: transparent;
+}
+
+::selection {
+  color: #1B6523;
+  background: #EDF5ED;
+}
+
+.eyebrow {
+  letter-spacing: 0.16em;
+}
+
+.map-frame {
+  filter: grayscale(0.25) saturate(0.75);
+}
+
